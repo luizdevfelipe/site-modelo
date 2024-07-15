@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossas Delícias</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css" media="screen">
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body class="fundo" onload="document.getElementById('fotos').style.opacity = '100'">
+  <header>
+    <div class="container-fluid p-0 menu-cor">
+      <nav class="navbar fixed-top p-0 navbar-expand-lg">
+        <div class="container-fluid menu-cor menu-cor p-1">
+          <a class="navbar-brand text-white p-1" href="index.html">
+            <img src="imagens/favicon_io/favicon-32x32.png" alt="Logo" width="30" height="24"
+              class="d-inline-block align-text-top">
+            Início
+          </a>
+          <button class="navbar-toggler btn btn-outline-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white border text-center rounded m-1" aria-current="page" href="cardapio.html">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white border text-center rounded m-1" aria-current="page" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white border text-center rounded m-1" aria-current="page" href="localizacao.html">Localização</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+    <main>
+        <img id="logo" src="imagens/logo_marca.png"class="mt-5 mb-2" alt="Logo Restaurante">
+
+        <div class="container" id="fotos">
+            <div class="row">
+                <div class="col-12 col-lg" id="foto1">
+                    <div class="card m-auto mb-2 mb-lg-0" style="max-width: 430px;">
+                    <img src="imagens/imagem1.jpg" style="height: 341px;" class="card-img-top" alt="Panquecas">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam maxime sunt illo explicabo accusamus.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg" id="foto2">
+                    <div class="card m-auto mb-2 mb-lg-0" style="max-width: 430px;">
+                    <img src="imagens/imagem2.jpg" style="height: 341px;" class="card-img-top" alt="Salada">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum voluptatum atque incidunt minus esse, quis veritatis deserunt dolore quas!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg" id="foto3">
+                    <div class="card m-auto mb-2 mb-lg-0" style="max-width: 430px;">
+                    <img src="imagens/imagem3.jpg" class="card-img-top" style="height: 341px;" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aperiam aliquam maxime incidunt, fugiat, cum voluptates minus repudiandae veritatis tenetur quisquam molestiae!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg" id="foto4">
+                    <div class="card m-auto mb-2 mb-lg-0" style="max-width: 430px;">
+                    <img src="imagens/imagem4.jpg" class="card-img-top" style="height: 341px;" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quidem ab quos illum incidunt accusantium asperiores repellendus harum laudantium, alias natus voluptate.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <footer class="pt-1" style="margin-top: 60px;">
+        Designed by <a href="https://github.com/luizdevfelipe" target="_blank">luizdevfelipe</a>
+    </footer>
+</body>
+</html>

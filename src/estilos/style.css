@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fundo{
+    background-color: #FFF3C7;    
+}
+
+.menu-cor{
+    background-color: brown;
+}
+
+main > img#logo{   
+    display: block;
+    margin: auto;
+    width: 340px;
+    padding: 20px 0px;
+}
+
+main div#primeiro{
+    background-image:  url('../imagens/carrosel/imagem1-cel.jpg');
+}
+
+main div#segundo{
+    background-image:  url('../imagens/carrosel/imagem2-cel.jpg');
+}
+
+main div#terceiro{
+    background-image:  url('../imagens/carrosel/imagem3-cel.jpg');
+}
+
+.carousel-caption:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: 1s;
+}
+
+.botoes:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    transition-duration: 1.3s;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+footer > a{
+    color: white;    
+}
+
+footer > a:hover{
+    transition: .5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carrossel{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FFF3C7;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.678);
+    width: 100%;
+    height: 750px;
+}
+
+/* ------------ Página de Localização ------------ */
+
+#fachada{
+    background-image:url('../imagens/fachada-cel.jpg');            
+}   
+
+.destaque{
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 0px 0px  8px #521011c4;    
+    padding: 30px;        
+    background-color: #F2C548;
+    text-align: center;
+}
+
+.parallax{    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FFF3C7;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.678);
+    width: 100%;
+    height: 700px;
+}
+
+/* ------------ Página de Contato ------------ */
+
+#contato{
+    background-image:url('../imagens/contato-cel.jpg');
+}
+
+p.destaque a{
+    color: white;
+    text-decoration: none;
+}
+
+p.destaque a:hover{
+    text-decoration: underline;
+}
+
+form{
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #f2c5488f;
+    border-radius: 8px;
+    width: 340px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.301);
+}
+
+fieldset{
+    border: none;
+    border-left: 3px solid #00000080;
+    border-right: 3px solid #00000080;
+    border-radius: 15px;
+}
+
+.px35{
+    font-size: 35px;
+}
+
+textarea:focus{
+    outline: none;
+    background-color: rgb(255, 245, 216);
+}
+
+input{
+    margin: 7px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transform: translateY(-6px);
+}
+
+.largura{
+    width: 114px;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(255, 245, 216);
+}
+
+/* ------------ Página de Cardápio ------------ */
+
+
+#fotos{
+    opacity: 30%;
+    transition: all 3.2s;
+}

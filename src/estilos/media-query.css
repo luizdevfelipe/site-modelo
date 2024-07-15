@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    main > img#logo{
+        width: 500px;
+    }
+
+    main div#primeiro{
+        background-image: url('../imagens/carrosel/imagem1-pc.jpg');
+    }
+
+    main div#segundo{
+        background-image: url('../imagens/carrosel/imagem2-pc.jpg');
+    }
+
+    main div#terceiro{
+        background-image: url('../imagens/carrosel/imagem3-pc.jpg');
+    }
+
+    /* ------------ Página de Localização ------------ */
+
+    div#fachada{
+        background-image: url('../imagens/fachada-pc.jpg');
+    }
+
+    iframe{
+        width: 900px;
+    }
+
+    /* ------------ Página de Contato ------------ */
+
+    div#contato{
+        background-image: url('../imagens/contato-pc.jpg');               
+    }   
+
+    p.destaque a::after{
+        content: '	\01F517';
+    }
+    
+}
